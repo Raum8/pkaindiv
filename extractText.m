@@ -23,6 +23,5 @@ for i = 1:numLetters
     counter = strcat(text, extractLetter(binaryData(index:index+6)));
     text = counter;
 end
-
 end
 
